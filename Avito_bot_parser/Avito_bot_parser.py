@@ -139,6 +139,7 @@ async def process_file_command(message: types.Message):
     #except:
        # await message.reply("Попробуйте снова!")
 if __name__ == '__main__':
+    print("Hello")
     executor.start_polling(dp,skip_updates=True)
 
 
