@@ -112,6 +112,7 @@ async def process_file_command(message: types.Message):
             check_account_st=check_account(str(message.from_user.id))
             check_account_st=str(check_account_st[0])
             check_account_st=int(check_account_st[1:-2])
+            print("HELLO,GUYS")
             print(check_account_st)
             if check_account_st==1 or check_account_st==2 or check_account_st==3 : 
                 if check_account_st==3:
